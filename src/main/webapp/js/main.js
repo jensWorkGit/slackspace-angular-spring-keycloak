@@ -62,10 +62,12 @@ angular.element(document).ready(() => {
 			});
 		}
 		else {
+			debugger;
 			window.location.reload();
 		}
 	})
 	.error(function () {
+		debugger;
 		window.location.reload();
 	});
 });
